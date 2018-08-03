@@ -79,10 +79,10 @@
     </div>
   </div>
   <div class="modal-footer">
-    <button class="btn btn-default" type="button" ng-click="deployWallet()" ng-disabled="newWallet.$invalid" show-hide-by-factory-status="offline" >
+    <button class="btn btn-default" type="button" ng-click="deployWallet()" ng-disabled="newWallet.$invalid" >
       Deploy
     </button>
-    <button class="btn btn-default" type="button" ng-click="deployFactoryWallet()" ng-disabled="newWallet.$invalid" show-hide-by-factory-status="online">
+   <!--  <button class="btn btn-default" type="button" ng-click="deployFactoryWallet()" ng-disabled="newWallet.$invalid" show-hide-by-factory-status="offline">
       Deploy with factory
     </button>
     <button class="btn btn-default" type="button" ng-click="deployOfflineWallet()" ng-disabled="newWallet.$invalid" show-hide-by-connectivity="offline">
@@ -90,7 +90,7 @@
     </button>
     <button class="btn btn-default" type="button" ng-click="deployFactoryWalletOffline()" ng-disabled="newWallet.$invalid" show-hide-by-connectivity="offline">
       Sign deployment with factory offline
-    </button>
+    </button> -->
     <button class="btn btn-danger" type="button" ng-click="cancel()">
       Cancel
     </button>

@@ -326,7 +326,7 @@
                   data.walletFactoryAddress = txDefault.walletFactoryAddresses["rinkeby"].address;
                 }
                 else {
-                  data.chain = "privatenet";
+                  data.chain = "Nextytenet";
                   data.etherscan = "https://testnet.etherscan.io";
                   data.walletFactoryAddress = txDefault.walletFactoryAddresses["privatenet"].address;
                 }
