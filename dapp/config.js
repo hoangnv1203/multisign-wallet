@@ -81,8 +81,12 @@ var txDefault = {
       name: 'Privatenet',
       address: '0xd79426bcee5b46fde413ededeb38364b3e666097'
     },
-    'nextytestnet': {
+    'nextynet': {
       name: 'Nextynet',
+      address: '0x98f788606c518bf8def8cc1c331b8b21b7a78a5a'
+    },
+    'nextytenet': {
+      name: 'Nextytenet',
       address: '0x98f788606c518bf8def8cc1c331b8b21b7a78a5a'
     }
   }

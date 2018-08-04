@@ -325,10 +325,15 @@
                   data.etherscan = "https://rinkeby.etherscan.io";
                   data.walletFactoryAddress = txDefault.walletFactoryAddresses["rinkeby"].address;
                 }
+                else if (block && block.hash == "0x080eeb525df0e852343ba13afedf2b256f0991c1b18797e18863fd7b4ab3574b") {
+                  data.chain = "nextynet";
+                  data.etherscan = "https://explorer.nexty.io";
+                  data.walletFactoryAddress = txDefault.walletFactoryAddresses["nextynet"].address;
+                }
                 else {
-                  data.chain = "Nextytenet";
-                  data.etherscan = "https://testnet.etherscan.io";
-                  data.walletFactoryAddress = txDefault.walletFactoryAddresses["privatenet"].address;
+                  data.chain = "nextytenet";
+                  data.etherscan = "http://172.16.1.9:88";
+                  data.walletFactoryAddress = txDefault.walletFactoryAddresses["nextytenet"].address;
                 }
 
                 resolve(data);
