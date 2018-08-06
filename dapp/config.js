@@ -15,7 +15,7 @@ var txDefaultOrig =
   walletFactoryAddress: "0x6e95c8e8557abc08b46f3c347ba06f8dc012763f",
   tokens: [
     {
-      'address': '0x687c75088099200eced26790c8be451c95063d21',
+      'address': '0x37834c8d2c02fcb1b14a63f1afc92038b17a6c97',
       'name': 'Gosama Token',
       'symbol': 'GOS',
       'decimals': 18
