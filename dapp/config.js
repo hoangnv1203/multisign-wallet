@@ -15,15 +15,9 @@ var txDefaultOrig =
   walletFactoryAddress: "0x6e95c8e8557abc08b46f3c347ba06f8dc012763f",
   tokens: [
     {
-      'address': '0x6810e776880c02933d47db1b9fc05908e5386b96',
-      'name': 'Gnosis',
-      'symbol': 'GNO',
-      'decimals': 18
-    },
-    {
-      'address': '0xa74476443119A942dE498590Fe1f2454d7D4aC0d',
-      'name': 'Golem',
-      'symbol': 'GNT',
+      'address': '0x687c75088099200eced26790c8be451c95063d21',
+      'name': 'Gosama Token',
+      'symbol': 'GOS',
       'decimals': 18
     }
   ]
